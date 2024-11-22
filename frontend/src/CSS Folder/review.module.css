@@ -1,0 +1,55 @@
+.reviewContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 8px;
+  background-color: white;
+  margin: 1rem 0;
+}
+
+.profileSection {
+  flex-shrink: 0;
+}
+
+.profilePhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+.reviewContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.dateTime {
+  font-size: 0.7rem;
+  color: #777;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
